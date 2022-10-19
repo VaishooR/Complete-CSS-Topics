@@ -1,0 +1,36 @@
+1. inline css
+2. internal css
+3. external css
+
+Examples:
+
+INLINE:  <p style="color:red;font-size:15px">
+
+INTERNAL:  <head>
+              <title> ... </title>
+              <style>
+                 h1{
+                    color:green;
+                    background:yellow;
+                   }
+                 p{
+                   color:yellow:
+                  }
+              </style>
+           </head>
+           
+EXTERNAL:  <head>
+              <title> ... </title>
+              <link rel="stylesheet" href="style.css" type="text/css"/>
+           </head>
+           
+           
+           style.css file:
+                h1{
+                    color:green;
+                    background:yellow;
+                   }
+                 p{
+                   color:yellow:
+                  }
+           
