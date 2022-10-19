@@ -1,0 +1,104 @@
+Background Properties:
+
+The CSS background properties are used to define the background effects for elements.
+
+Background Color
+Background Image
+Background Repeat
+Background Attachment
+Background Position
+Background size
+
+
+
+----------------------------------------------------------------------
+Background Color:
+The background-color property specifies the background color of an element.
+
+Example:
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+----------------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------------
+Background Image:
+The background-image property specifies an image to use as the background of an element.
+
+By default, the image is repeated so it covers the entire element.
+
+Example:
+body {
+  background-image: url("rose.png");
+}
+----------------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------------
+Background Repeat:
+By default, the background-image property repeats an image both horizontally and vertically.
+
+Some images should be repeated only horizontally or vertically, or they will look strange, like this:
+
+Example:
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+
+Background No-Repeat:
+Showing the background image only once is also specified by the background-repeat property:
+
+Example:
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+----------------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------------
+Background Size:
+
+background-size:300px 100px;
+background-size:cover;
+background-size:contain;
+----------------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------------
+Background Position:
+The background-position property is used to specify the position of the background image.
+
+Example:
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+----------------------------------------------------------------------
+
+
+
+
+----------------------------------------------------------------------
+Background Attachment:
+The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):
+----------------------------------------------------------------------
+
