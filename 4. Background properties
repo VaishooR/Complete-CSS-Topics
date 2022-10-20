@@ -8,6 +8,8 @@ Background Repeat
 Background Attachment
 Background Position
 Background size
+Background Origin
+Background clip
 
 
 
@@ -100,5 +102,36 @@ body {
 ----------------------------------------------------------------------
 Background Attachment:
 The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):
+
+Example:
+background-attachment: scroll;     //both image and content moves, as we scroll down the image disappers.
+background-attachment: fixed;      //content moves but bg image remains constant.
+----------------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------------
+Background Origin:
+
+The background-origin property specifies where the backaground image has to start.
+
+Example:
+background-origin: border-box;       //bg image starts from borders itself.
+background-origin: padding-box;      //bg image appears right from padding area. 
+background-origin: content-box;      //bg image appears only over the content part. The padding are is left unused.
+
+This property has no effect if background-attachment is "fixed".
+----------------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------------
+Background clip:
+ 
+This Css property is used to set background image for alphabets.
 ----------------------------------------------------------------------
 
