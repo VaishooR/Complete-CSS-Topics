@@ -1,0 +1,89 @@
+TEXT PROPERTIES:
+
+Text Color
+Text Alignment
+Text Decoration
+Text Transformation
+Text Spacing
+Text Shadow
+
+
+
+---------------------------------------------------------------------------------------------
+Text Spacing:
+provides space between each letter in a word.
+
+The CSS Text Spacing Properties:
+
+  Property	                      Description
+letter-spacing	   Specifies the space between characters in a text
+line-height	       Specifies the line height
+text-indent	       Specifies the indentation of the first line in a text-block
+white-space	       Specifies how to handle white-space inside an element
+word-spacing	     Specifies the space between words in a text
+
+Example:
+letter-spacing:5px;
+text-indent:50px;
+line-height:30px;
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+Text Decoration:
+
+text-decoration	           Sets all the text-decoration properties in one declaration
+text-decoration-color	     Specifies the color of the text-decoration
+text-decoration-line	     Specifies the kind of text decoration to be used (underline, overline, etc.)
+text-decoration-style	     Specifies the style of the text decoration (solid, dotted, etc.)
+text-decoration-thickness  Specifies the thickness of the text decoration line
+
+
+Example:
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+Text Alignment:
+
+direction	            Specifies the text direction/writing direction
+text-align	          Specifies the horizontal alignment of text
+text-align-last	      Specifies how to align the last line of a text
+vertical-align	      Sets the vertical alignment of an element
+
+Example:
+vartical-align: sub;
+vertical-align:super;
+
+text-align:center;
+text-align:justify;
+text-align:right;
+text-align:left;
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+Text Transformation:
+
+Example:
+text-transform:uppercase;
+text-transform:lowercase;
+text-transform:capitalise;
+---------------------------------------------------------------------------------------------
+
+
+
+
+
