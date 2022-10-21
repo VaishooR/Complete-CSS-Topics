@@ -11,7 +11,7 @@ Background size
 Background Origin
 Background clip
 Background Gradient
-
+Background blend
 
 
 
@@ -203,4 +203,31 @@ background: conic-gradient(red 0deg, red 90deg,yellow 90deg,yellow 180deg,green 
 background: conic-gradient(at 60% 40%,red,yellow,orange,green,pink);
 background: repeating-conic-gradient(red,yellow,orange);
 ----------------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------------
+Background-blend-mode:
+The background-blend-mode CSS property sets how an element's background images should blend with each other and with the element's background color.
+
+Example:
+
+background-blend-mode: normal;
+background-blend-mode: screen;
+background-blend-mode: overlay;
+background-blend-mode: hard-light;
+background-blend-mode: soft-light;
+background-blend-mode: multiply;
+background-blend-mode: color-burn;
+background-blend-mode: difference;
+background-blend-mode: exclusion;
+background-blend-mode: hue;
+background-blend-mode: color;
+background-blend-mode: saturation;
+background-blend-mode: lumonisity;
+----------------------------------------------------------------------
+
+
 
