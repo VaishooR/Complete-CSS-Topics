@@ -1,5 +1,8 @@
 MARGIN PROPERTY:
 
+The margin property defines the space around an HTML element. 
+It is possible to use negative values to overlap content.
+
 margin individual sides:
    margin-top:10px;
    margin-bottom:10px;
