@@ -12,3 +12,13 @@ padding-top: 10px;
 padding-bottom: 15px;
 padding-right: 25px;
 padding:-left: 60px;
+
+
+
+
+--------------------------------------
+Difference between margin and padding:
+
+Margin is outer space.
+Padding is inner space.
+--------------------------------------
