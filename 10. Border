@@ -1,0 +1,84 @@
+BORDER
+
+Border width
+Border color
+
+
+
+
+------------------------------------------------------------------
+CSS Border Width:
+
+The border-width property specifies the width of the four borders.
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+
+Example:
+border-width: thick;
+border-width: thin;
+border-width: 5px;
+border-width: medium;
+------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------
+CSS Border color:
+
+The border-color property is used to set the color of the four borders.
+The color can be set by:
+   name - specify a color name, like "red"
+   HEX - specify a HEX value, like "#ff0000"
+   RGB - specify a RGB value, like "rgb(255,0,0)"
+   HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+         transparent
+         
+Example:
+border-color: red;
+border-color: red green blue yellow;
+border-color: #ff0000;
+border-color: rgb(255, 0, 0);
+border-color: hsl(0, 100%, 50%);
+-------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------
+CSS Border style:
+
+The border-style property specifies what kind of border to display.
+
+Example:
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: dotted;
+border-left-style: solid;
+
+border-style: dotted;
+border-style: dashed;
+border-style: solid;
+border-style: double;
+border-style: groove;
+border-style: ridge;
+border-style: inset;
+border-style: outset;
+border-style: none;
+border-style: hidden;
+border-style: dotted dashed solid double;
+-------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------
+CSS border shorthand:
+
+border: border-width | border-style | border-color
+
+Example:
+border: thin dotted blue;
+-------------------------------------------------------------------
