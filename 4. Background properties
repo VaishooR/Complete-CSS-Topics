@@ -10,6 +10,10 @@ Background Position
 Background size
 Background Origin
 Background clip
+Background Gradient
+
+
+
 
 
 
@@ -149,5 +153,54 @@ div{
    background-color:black;
    -webkit-background-clip:text;
 }
+----------------------------------------------------------------------
+
+
+
+
+
+
+----------------------------------------------------------------------
+Background Gradient:
+
+The CSS gradient displays a smooth transition using two or more specified colors.
+There are three types of gradients: 
+   i) linear (created with the linear-gradient() function), 
+   ii) radial (created with radial-gradient() function), and 
+   iii) conic (created with the conic-gradient() function). 
+You can also create repeating gradients with the 
+   repeating-linear-gradient(), 
+   repeating-radial-gradient(), and 
+   repeating-conic-gradient() functions.
+   
+
+Example:
+
+linear:
+background: linear-gradient(red,yellow);
+background: linear-gradient(red,yellow,orange);
+background: linear-gradient(to right,red,yellow);                      //default is top to bottom
+background: linear-gradient(to bottom right,red,yellow);
+background: linear-gradient(45deg,red,yellow);
+background: linear-gradient(-45deg,red,yellow);
+background: repeating-linear-gradient(red,yellow 10%,green 20%);       //linera bg gets repeated
+
+radial:
+background: radial-gradient(red,yellow);
+background: radial-gradient(red 5%,yellow 15%,orange 60%);                   //by default radial will be in ellipse shape
+background: radial-gradient(circle,red 5%,yellow 15%,orange 60%);
+background: radial-gradient(closest-side at 80% 50%, red,yellow,orange);     //closest and farthest mentions x axis and y axis 
+background: radial-gradient(farthest-side at 80% 50%, red,yellow,orange);
+background: radial-gradient(closest-corner at 80% 50%, red,yellow,orange);      
+background: radial-gradient(farthest-corner at 80% 50%, red,yellow,orange);
+background: repeating-radial-gradient(red 5%,yellow 15%,orange 60%);         //radial bg gets repeated
+
+conic:
+border-radius:50%;
+background: conic-gradient(red,yellow,orange,green,pink);
+background: conic-gradient(from 90deg,red,yellow,orange);
+background: conic-gradient(red 0deg, red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);     //this is how pie charts are created.
+background: conic-gradient(at 60% 40%,red,yellow,orange,green,pink);
+background: repeating-conic-gradient(red,yellow,orange);
 ----------------------------------------------------------------------
 
