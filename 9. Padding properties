@@ -1,0 +1,14 @@
+Padding:
+
+An element's padding area is the space between its content and its border.
+
+Example:
+
+padding: 20px;
+padding: 20px 20px;
+padding: 10px 20px 10px 20px;
+
+padding-top: 10px;
+padding-bottom: 15px;
+padding-right: 25px;
+padding:-left: 60px;
