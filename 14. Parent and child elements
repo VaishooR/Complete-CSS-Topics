@@ -1,0 +1,18 @@
+Example:
+
+<body>                                   
+    <h1>Title of the content</h1>
+    <h3>syllabus</h3>
+    <div>
+        <h4>Heading</h4>
+        <p>Lorem edgy loufvghj mmhfdert bhutr vdawe ghff jhfhgfc oikjvxfd lorem edgy loufvghj  mmhfdert bhutr vdawe ghff jhfhgfc oikjvxfd.</p>
+    </div>
+</body>
+
+
+Here,
+body is parent element.
+h1,h3,div are its child element.
+h4,p are its grand-child element.
+
+div is parent element for h4,p.
