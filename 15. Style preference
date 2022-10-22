@@ -1,0 +1,25 @@
+What is Specificity?
+
+If there are two or more CSS rules that point to the same element, 
+the selector with the highest specificity value will "win", 
+and its style declaration will be applied to that HTML element.
+
+
+
+
+---------------------------------------------------------
+--> id selector is given the 1st preference.
+--> class selector has the 2nd preference.
+--> element selector is given the 3rd preference.
+--> But !important has the highest priority among all of them.
+----------------------------------------------------------
+
+
+
+
+----------------------------------------------------------
+--> inline css overrides css rules in style tag(internal css) and css file(external css).
+--> A more specific selector takes precedence over a less specific one.
+--> Rules that appear later in the code override earlier rules if both have the same specificity.
+--> A css rule with !important always takes precedence.
+----------------------------------------------------------
