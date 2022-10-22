@@ -1,0 +1,32 @@
+DISPLAY PROPERTIES
+
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: flow-root;
+display: none;
+
+
+
+
+inline	                Displays an element as an inline element (like <span>). Any height and width properties will have no effect. It takes only the width of its content.
+block	                  Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width i.e screen width.
+inline-block	          Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
+none	                  The element is completely removed
+
+
+Example:
+
+ul li{
+   display: inline;
+   list-style-type: none;
+   margin-left: 10px;
+   padding: 15px;
+   background: yellow;
+   }
