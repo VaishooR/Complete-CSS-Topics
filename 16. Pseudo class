@@ -1,0 +1,46 @@
+PSEUDO CLASS:
+
+A pseudo-class is used to define a special state of an element.
+
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+
+The syntax of pseudo-classes:
+
+selector:pseudo-class {
+  property: value;
+}
+
+
+Example:
+
+<style>
+    a{
+	    text-decoration: none;
+    }
+    a:hover{
+	    color:red;
+    }
+    a:active{
+      color:orange;
+    }
+    a:visited{
+      color:pink;
+    }
+  </style>
+  </head>
+  
+  
+  <body>
+    <h1>Pseudo Class In CSS</h1>
+	  <a href="01_inline.html" title="link1">Link-1</a>
+	  <a href="02_internal.html" title="link2">Link-2</a>
+	  <a href="03_external.html" title="link3">Link-3</a>
+	  <a href="04_font.html" title="link4">Link-4</a>
+  </body>
