@@ -1,0 +1,75 @@
+CSS Layout design:
+
+1. Box model in CSS
+2. Normal document flow
+3. Display properties
+4. Float properties
+5. Position:  
+   i) Static
+   ii) Relative
+   iii) Absolute
+   iv) Fixed
+   
+   
+   
+--------------------------------------------------------------------------------------------------- 
+
+BOX MODEL IN CSS:
+
+Margin > Border > Padding > Content
+
+Margin:
+
+The margin property defines the space around an HTML element. 
+It is possible to use negative values to overlap content.
+The margin specifies a shorthand property for setting the margin properties in one declaration.
+The margin-bottom specifies the bottom margin of an element.
+The margin-top specifies the top margin of an element.
+The margin-left specifies the left margin of an element.
+The margin-right specifies the right margin of an element
+
+Example
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+margin:30px 10px 30px 10px;
+
+---------------------------------------------------------------------------------------------------
+
+Border:
+
+The border property in CSS is used to style the border of an element. 
+This property is a combination of three other properties border-width, border-style, and border-color as can be used as a shorthand notation for these three properties. 
+The border-width specifies the width of an element.
+The border-style specifies the styling effect of an element.
+The border-color specifies the color of an element.
+
+Example:
+border: 10px solid red;
+
+---------------------------------------------------------------------------------------------------
+
+Padding:
+
+The padding property allows you to specify how much space should appear between the content of an element and its border.
+The padding specifies a shorthand property for setting the margin properties in one declaration.
+The padding-bottom specifies the bottom padding of an element.
+The padding-top specifies the top padding of an element.
+The padding-left specifies the left padding of an element.
+The padding-right specifies the right padding of an element
+
+Example:
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+padding:30px 10px 30px 10px;
+
+---------------------------------------------------------------------------------------------------
+
+
