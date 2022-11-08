@@ -160,4 +160,49 @@ tag_name {
 
 
 
+Example:
+
+<!DOCTYPE html>
+<html>
+<title>Online CSS Editor</title>
+<head>
+
+<style>
+.main{
+    border:3px solid black;
+    width:500px;
+    height:400px;
+    position:relative;
+}
+.box{
+    width:100px;
+    height:100px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.box1{
+    background-color:teal;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.box2{
+    background-color:tomato;
+}
+.box3{
+    background-color:yellowgreen;
+}
+</style>
+
+</head>
+<body>
+<div class='main'>
+    <div class='box1 box'>BOX-1</div>
+    <div class='box2 box'>BOX-2</div>
+    <div class='box3 box'>BOX-3</div>
+</div>
+</body>
+</html>
 
