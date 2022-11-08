@@ -1,0 +1,163 @@
+Position properties:
+
+1. Static : All the elements are arranged in a regular document flow.
+2. Relative : Uses position:relative and LTRB.
+              Only changes its position from the normal document flow.
+3. Absolute : Uses position:absolute and LTRB in child element along with position:relative in its parent element. 
+              If this is not mentioned, automatically the entire html element is considered as its parent element. 
+              Changes its position based on its parent element where position has been mentioned as position:relative.
+4. Fixed : Uses position:fixed and LTRB to fix the position anywhwere on the screen so that its position doesnot get affected on scrolling. Remains constant.
+5. Sticky : Uses position:sticky which will stick the element to the screen when it reaches its scroll position.
+
+
+
+
+
+/******************* BASIC BLOCK POSITIONING **********************/
+
+
+
+/******************** Static Position  *************************/
+/*All elements are static in their position by default. Which means 
+that, all elements are organized just like they would if your code 
+didn't have any CSS and were just pure HTML */
+
+tag_name {
+  position: static;
+}
+
+
+
+
+
+
+
+
+/******************** Relative Position *************************/
+/*It allow us to position this element relative to how it would have
+been positioned had it been static. You can use the coordinate 
+properties to guide this element (by giving some margins to the block), 
+relative to what was the standard layout. This new position will not 
+influence the distribution of other elements (the others will keep 
+the standard layout, as if your element leaves a "shadow" of where it 
+was supposed to be). Therefore, some overlaps and lack of coordination 
+can occur when you move your element*/
+
+tag_name {
+  position: relative;
+  left: 30px;
+  right: 10px;
+  bottom: 2px;
+  top: 4px;
+  
+  z-index: 1;  /* It decides which element will show on top of the 
+                  other. The first to show, is the one with the 
+                  greatest index */
+}
+
+
+
+
+
+
+
+
+
+
+/******************** Absolute Position *************************/
+/* With this property, we are able to position the element relative 
+to the <body> or relative to it's parent, IF the parent is itself isn't 
+"static". Using the coordination properties, we do not increase or 
+decrease the margins in relation to the standard position, but rather, 
+we are increasing or decreasing the distance in relation to the "walls" 
+of the block that contains this element, for example, a parent <div> 
+that contains a <h1> element. The name "absolut", comes from the cases 
+where the parent is the <body> element. When you use this property, 
+you are taking the element away from the natural flow of your document, 
+so, the other elements position will not take into account your absolute 
+element*/
+
+tag_name {
+  position: absolute;
+  left: 30px;
+  right: 10px;
+  bottom: 2px;
+  top: 4px;  
+  
+  z-index: 1;  /* It decides which element will show on top of the 
+                  other. The first to show, is the one with the 
+                  greatest index */
+}
+
+/* For exemple: */
+
+div{
+  position: relative;
+}
+
+h1 {
+  position: absolute;      /* In relation to the div element*/
+  left: 30px;
+  top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************** Fixed Position *************************/
+/*As soon as the element is fixed in a certain position, relative 
+to it's parent, then, whenever we scroll down the webpage, the element 
+maintains its fixed position on the screen. This property will also 
+make the other html elements, ignore the position of this element 
+during their layout (it takes it away from the natural flow of the 
+document). */
+
+tag_name {
+  position: fixed;
+  left: 30px;
+  right: 10px;
+  bottom: 2px;
+  top: 4px;
+  
+  z-index: 2;  /* It decides which element will show on top of the 
+                  other. The first to show, is the one with the 
+                  greatest index */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** Sticky Position *************************/
+/* This property will stick the element to the screen when you 
+reach its scroll position */
+
+tag_name {
+  position: -webkit-sticky;   /* For Safari */
+  position: sticky;
+  left: 20px;
+  right: 60px;
+  bottom: 5px;
+  top: 13px;
+  
+}
+
+
+
+
+
+
