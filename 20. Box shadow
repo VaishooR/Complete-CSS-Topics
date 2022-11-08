@@ -1,0 +1,26 @@
+The box-shadow CSS property adds shadow effects around an element's frame. 
+
+By default, the shadow is assumed to be a drop shadow (as if the box were raised above the content.
+Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
+<offset-x> specifies the horizontal distance. Negative values place the shadow to the left of the element. 
+<offset-y> specifies the vertical distance. Negative values place the shadow above the element. 
+<blur-radius>
+This is a third <length> value. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it will be 0 (the shadow's edge is sharp).
+<spread-radius>
+This is a fourth <length> value. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element).
+
+
+Ex:
+box-shadow: none;
+
+/* offset-x | offset-y | color */
+box-shadow: 60px -16px teal;
+
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 5px 5px black;
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+/* inset | offset-x | offset-y | color */
+box-shadow: inset 5em 1em gold;
