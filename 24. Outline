@@ -1,0 +1,52 @@
+Outline : A line just outside the border is outline.
+
+Outline properyies includes:
+outline-width
+outline-color
+outline-offset
+outline-style
+  solid
+  dotted
+  dashed
+  double
+  groove
+  ridge
+  inset
+  outset
+  none
+
+solid	       The outline is a single solid line.
+dotted	     The outline is a series of dots.
+dashed	     The outline is a series of short lines.
+double	     The outline is two solid lines.
+groove	     The outline looks as though it is carved into the page.
+ridge	       The outline looks the opposite of groove.
+inset	       The outline makes the box look like it is embedded in the page.
+
+-----------------------------------------------------------------------------
+Example:
+
+<style>
+    div{
+      width: 300px;
+      border:3px solid brown;
+      padding: 20px;
+
+      outline: 2px solid blue;      //shorthand property for outline
+      outline-width: 3px;
+      outline-style:dashed;
+      outline-color: red;
+      outline-offset: 2px;          //adds a gap between border and outline.
+    }
+</style>
+
+</head>
+<body>
+  <h1>Outline in CSS</h1>
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minima placeat maxime dolorem sit perspiciatis, iste obcaecati enim voluptates harum incidunt voluptatibus dolore illo, doloremque ipsam veritatis porro reiciendis laborum.
+  </div>
+</body>
+------------------------------------------------------------------------------
+
+
