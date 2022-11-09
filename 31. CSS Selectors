@@ -1,0 +1,21 @@
+CSS Selectors:
+
+In CSS, selectors are used to target the HTML elements on our web pages that we want to style. 
+There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style.
+
+1. Simple Selectors
+   i) element - element name like p, h1, div etc.
+   ii) id - one element can have only one id. the same id cannot be used by another element. ids are unique.
+   iii) class - many elements can have same classname.
+   iv) universal  - star* is universal selector. This selects all the elements present in the document.
+   
+2. Combinators Selectors
+   i) descendant - Using space. combination of parent child grandchild elements seperated by a space.
+   ii) direct child - Using > symbol. combination of only the parent and its direct child. the grandchild elements wont get included in this.
+   iii) adjacent sibiling - Using + symbol. combination of one element + its adjacent sibiling element.
+   iv) general sibiling - Using ~ symbol. Selects all its direct siblings. Not the child element of any sibiling.
+   
+3. Attribute Selector
+4. Pseudo class selector
+5. Pseudo element selector
+
