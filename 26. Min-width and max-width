@@ -1,0 +1,50 @@
+max-width
+The max-width property in CSS is used to define the maximum width of an element. 
+The value of the width cannot be larger than the value by max-width. 
+If the content is larger than the max-width then it will go to the next line and if the content is smaller than max-width then it has no effect.
+
+min-width
+The min-width property in CSS is used to define the minimum width of an element. 
+The value of the width cannot be less than the value of min-width. 
+If the content specified within the element is smaller, min-width maintains the specified minimum width.
+
+
+
+-------------------------------------------------------------------------------------
+Example:
+
+<!DOCTYPE html>
+<html>
+<title>Online CSS Editor</title>
+<head>
+
+<style>
+div{
+    border:5px solid red;
+    max-width:300px;
+}
+img{
+    width:100%;                    //** When an image is added, the width might exceed the max-width we have specified. Using overflow property hides the image partially. 
+                                        So we use image{width:100%} which takes the exact full width of its parent element without cropping out the image. Full image is visible within the specified width.
+}
+p{
+    text-align:center;
+    padding:10px;
+}
+</style>
+
+</head>
+<body>
+<div>
+    <img src='https://thumbs.dreamstime.com/b/buddha-bowl-healthy-balanced-vegan-meal-fresh-salad-variety-vegetables-eating-concept-top-view-113553334.jpg'/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum saepe dolorum ab harum necessitatibus exercitationem laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+    </p>
+</div>
+</body>
+</html>
+-----------------------------------------------------------------------------------
+
+
+
+
