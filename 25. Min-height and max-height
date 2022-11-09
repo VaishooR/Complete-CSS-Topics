@@ -1,0 +1,37 @@
+By default, the height property is set to auto, height:auto, i.e it expands according to its contents height.
+
+min-height: 
+min-height is the minimum height set to the content even if the content is lesser than the specifeid min-height value.
+But as the content increases the min-height value it starts expanding according to the content height.
+But when content size is decreased, the height also gets shrinked but only till the min-height value. It stops at the min-height value even if the content has extra space.
+
+max-height:
+max-height is the maximum value set for the height to expand. After this value, the max-height stops expanding and the content starts overflowing.
+
+Example:
+div{
+      border:5px solid red;
+      padding: 10px;
+      min-height: 200px;
+      max-height: 500px;
+   }
+  
+Here, this means that no matter what the content height is, the height is fixed to min 200px and max 500px.
+Which means, the content exceeding the max-height value is going to overflow, and the content less than the min-height is going to have empty space between the border and the content.
+
+
+
+
+
+--------------------------------------------------------------------------------
+max-height
+The max-height property in CSS is used to set the maximum height of an element. 
+If the content of the element is larger than the specified maximum-height then the content will overflow otherwise it has no effect. 
+If the content of the element is smaller then it has no effect. This property value can be overridden by the max-height property.
+
+min-height
+The min-height property in CSS is used to set the minimum height of an element. 
+This is used when the content of element is smaller than the min-height and if the content is larger than the min-height then it has no effect. 
+This property ensures that the value of the height property is not less than the specified min-height value of the element in consideration.
+--------------------------------------------------------------------------------
+
