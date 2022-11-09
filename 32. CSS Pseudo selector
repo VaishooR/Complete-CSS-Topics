@@ -1,0 +1,57 @@
+Pseudo selector:
+
+A pseudo-class is used to define a special state of an element. Used for
+    - when a user mouses over it
+    - visited and unvisited links differently
+    - when it gets focus
+    
+----------------------  
+Pseudo Selectors:
+
+root
+first-child
+last-child
+nth-child
+nth-of-type
+only-child
+only-of-child
+first-of-type
+last-of-type
+empty
+not
+Pseudo Class
+target
+attribute selector
+is
+------------------------
+
+
+
+
+
+-----------------------------------------------------------
+1. root: selector
+:root can be useful for declaring global CSS variables:
+The CSS property declared inside this root selector can be commonly used for many elements i.e 
+when a same style is getting repaeted all through the document, we use a common variable name inside root selector, and this varaiable name can be used commonly all over the doc.
+
+:root {
+    // CSS property
+} 
+
+Example:
+
+    :root{
+      --bgcolor:aliceblue;
+      --color:teal;
+    }
+    
+    h1{
+      color:var(--color);
+    }
+    p{
+      padding: 10px;
+      background-color:var(--bgcolor);
+      color:var(--color);
+     }
+ -----------------------------------------------------------  
