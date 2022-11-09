@@ -1,0 +1,54 @@
+Column properties:
+This columns CSS shorthand property sets the number of columns to use when drawing an element's contents, as well as those columns' widths.
+
+
+column-count    	    this specifies the number of columns an element should be divided into
+column-gap	          this specifies the gap between the columns
+column-rule	          this shorthand property for setting all the column-rule-* properties
+column-rule-color	    this specifies the color of the rule between columns
+column-rule-style	    this specifies the style of the rule between columns
+column-rule-width	    this specifies how many columns an element should span across
+column-span           this specifies a seperate block width for the element moving down the column contents seperately
+
+
+
+----------------------------------------------------------------------------------------------
+Example:
+
+<!DOCTYPE html>
+<html>
+<title>Online CSS Editor</title>
+<head>
+<style>
+div{
+    border:5px solid red;
+    column-count:3;
+    column-width:100px;
+    column-gap:50px;
+    column-rule: 2px dotted blue;
+}
+h1{
+    column-span:all;
+    text-align:center;
+}
+p{
+    padding:10px;
+}
+</style>
+</head>
+<body>
+<div>
+    <h1>Column CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum saepe dolorum ab harum necessitatibus exercitationem laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum  laudantium et sint! Recusandae numquam quibusdam laborum eveniet iure optio exercitationem perferendis et vero ullam. Lorem ipsum adipisicing elit. Eum .
+  </p>
+</div>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------
+
+
+
