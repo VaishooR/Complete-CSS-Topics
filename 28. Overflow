@@ -1,0 +1,33 @@
+Overflow:
+
+This overflow property specifies what should happen if content overflows an element's box. 
+This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
+By default, overflow:visible, which means the content is seen if it exceeds the specified height or width.
+So we can use overflow : hidden for the content which exceeds the mentioned height and width.
+
+
+visible	          This overflow is not clipped. It renders outside the element's box. This is default.
+auto	            This overflow is clipped, a scroll-bar should be added to see the rest of the content.
+scroll	          This overflow is clipped, but a scroll-bar is added to see the rest of the content.
+overflow	        This specifies what happens if content overflows an element's box.
+overflow-wrap	    This specifies whether or not the browser can break lines with long words, if they overflow its container.
+overflow-x	      This specifies what to do with the left/right edges of the content if it overflows the element's content area.
+overflow-y	      This specifies what to do with the top/bottom edges of the content if it overflows the element's content area.
+
+
+----------------------------------------------------------------------------------
+Example:
+
+div{
+      width: 500px;
+      height: 200px;
+      border: 5px solid green;
+      padding: 10px;
+      overflow: visible;
+      overflow: hidden;
+      overflow: scroll;
+     overflow: auto;
+     overflow-y: scroll;
+     overflow-x: scroll;
+  }
+----------------------------------------------------------------------------------
