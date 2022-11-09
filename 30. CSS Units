@@ -1,0 +1,53 @@
+The CSS has several different units for expressing a length. This many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+
+  Absolute Units: Based on screen size.
+    cm  Centimeters
+    mm  Millimeters
+    in  Inches
+    px  pixels
+    pt  Points
+    pc  Picas
+
+  Relative Units: Based on parent element size.
+    em
+    rem    relative em
+    vw     viewport width
+    vh     viewport height
+    vmax   viewport maximum
+    vmin   viewport minimum
+    %      percentage
+    ch
+    ex
+    
+    
+  ---------------------------------------------------------------------------------------------------------
+  
+  Commonly used units:
+    px - This define the measurement in points.
+         pixel is an absolute unit. i.e when screen size is changed, the pixel value doesnot change according to the screen size. Remains constant.
+    
+    %  - This used to define the measurement as a percentage that is relative to another value, To the parent value.
+    
+    em - Works based on direct parent element's size.
+         if not mentioned, then it works based on the browser base value.
+         If parent element is not mentioned with any size, then it takes its base size as browsers font size.
+         1 em = 16 px.
+         It is a relative unit. Works based on browsers base vale. Browser base value can be small medium large etc. By default it is medium.
+         2 em = 2 * browser base value
+         Now if parent element size is mentioned as font-size:5px;
+         Then the em value is changed according tp its parent element value.
+         i.e font-size: 2 em means 2*5px=10px
+         
+    rem - Works based on root parent element's size. i.e html
+          if html{font-size:10px} is mentioned, then rem works based on this value.
+          if not mentioned, then it works based on the browser base value.
+          
+    vw - width of the device not the browser
+    vh - height of the device not the browser
+    vmax - relative to the smaller dimension of the viewport.
+    vmin - relative to the larger dimension of the viewport.
+    
+   ----------------------------------------------------------------------------------------------------------
+   
+   
+   
