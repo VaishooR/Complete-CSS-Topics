@@ -55,3 +55,92 @@ Example:
       color:var(--color);
      }
  -----------------------------------------------------------  
+ 
+ These 2,3,4 works only when a parent element is present.
+
+ 2. :first-child
+    Selects the 1st element from a set of siblings.
+    
+ 3. :last-child
+    Selects the 1st element from the last, in a set of siblings.
+    
+ 4. i) :nth-child
+       Selects any element in a set of siblings. It can be any num(n), even num series(2n), odd num series(2n+1).
+       
+    ii) :nth-last-child
+        Considers last elemnt in the set as the 1st. Sequence starts from the last element.
+        
+ Examples:
+ 
+ #list-1 li:first-child{...}
+ li:last-child{...}
+ p:first-child{...}
+ p:last-child{...}
+ #l1 li:nth-child(5){...}  
+ #l2 li:nth-child(3n-1){...}
+ #l2 li:nth-last-child(5){...}
+ 
+ ------------------------------------------------------------------  
+      
+ 5. :nth-of-type
+    Works with an element even if it doesnot have a parent element.
+    
+    Examples:
+    p:nth-of-type(1){
+    p:nth-last-of-type(1){
+    li:nth-of-type(1){
+    li:nth-last-of-type(1){
+    .l2 li:nth-of-type(odd){
+    .l2 li:nth-of-type(even){
+      
+ ------------------------------------------------------------------
+ 
+ 6. :only-child
+    Works only when a parent has only one child. Without any sibilings.
+    
+ 7. :only-of-child
+    Works when an element is available only once, without having a parent. Without any sibilings.
+    
+    Example:
+    li:only-child{...}
+    p:only-of-type{...}
+    
+  ------------------------------------------------------------------
+  
+  8. :first-of-type  
+  9. :last-of-type
+     Works both with or without parent element. Selects the first or last element.
+  
+   Example:
+   li:last-of-type{...}
+   p:first-of-type{...}
+        
+  ------------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
