@@ -143,11 +143,65 @@ Example:
   
   ------------------------------------------------------------------
   
+  12. pseudo class 
+      Pseudo-classes is a way to describe the state of the link or it gives effect to the anchor tag < a >. 
+      A user can show a link whether it has been visited by them previously or it is in a running state, We can also change the cursor sign when the mouse is over.
+
+      Example:
+      a:link{
+        color:green;
+      }
+      a:hover{
+        background-color: teal;
+        color:white;
+      }
+      a:active{
+         color:orangered;
+      }
+      a:visited{
+         color:darkred;
+      }
   
+  ------------------------------------------------------------------
   
+  13. :target
+      This pseudo-class :target is used to style the target element of a URL containing a fragment identifier.
+      Which means that on clicking a link, the target element has to be highlighted.
+      For this, we give the same idname to that particular link and the element which has to be connected.
+      
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      padding: 10px;
+      background-color: aliceblue;
+    }
+    p:target{
+      background-color: aquamarine;
+      color:blue;
+    }
+  </style>
+</head>
+<body>
+  <h3>CSS Pseudo Class Selector | :target</h3>
+  <a href="#para1">Para-1</a>                          //the <a> and <p> has been given the same idname to connect them both.
+  <a href="#para2">Para-2</a>
+  <a href="#para3">Para-3</a>
+
+  <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus dolores dolore sed quidem mollitia repudiandae corrupti a delectus veritatis quisquam adipisci at exercitationem quam corporis accusamus nemo, placeat quaerat?</p>
+  <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus dolores dolore sed quidem mollitia repudiandae corrupti a delectus veritatis quisquam adipisci at exercitationem quam corporis accusamus nemo, placeat quaerat?</p>
+  <p id="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus dolores dolore sed quidem mollitia repudiandae corrupti a delectus veritatis quisquam adipisci at exercitationem quam corporis accusamus nemo, placeat quaerat?</p>
+</body>
+</html>
   
-  
-  
+  ------------------------------------------------------------------
     
  
  
