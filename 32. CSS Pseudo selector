@@ -117,8 +117,31 @@ Example:
         
   ------------------------------------------------------------------
   
+  10. :empty
+      When there is an empty element present, this psuedo selector can be used to select it.
+      The :empty CSS pseudo-class represents any element that has no children. 
+      Children can be either element nodes or text (including whitespace).
+      
+      Example:
+      p:empty{
+      padding: 10px;
+      border: 2px solid goldenrod;
+      }
+      
+  ------------------------------------------------------------------
   
+  11. :not
+      To select elements except this particular id or class.
+      
+      Example:
+      p.para{
+      color:blue;
+      }
+      p:not(.para){
+      color:red;
+      }
   
+  ------------------------------------------------------------------
   
   
   
