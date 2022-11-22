@@ -3,10 +3,12 @@ Position properties:
 1. Static : All the elements are arranged in a regular document flow.
 2. Relative : Uses position:relative and LTRB.
               Only changes its position from the normal document flow.
+              doesnot break the normal doc flow.
               leaves empty space when element moves.
 3. Absolute : Uses position:absolute and LTRB in child element along with position:relative in its parent element. 
               If this is not mentioned, automatically the entire html element is considered as its parent element. 
               Changes its position based on its parent element where position has been mentioned as position:relative.
+              breaks the normal doc flow.
               doesnot leave empty space. next element occupies the empty space left by the element moved.
 4. Fixed : Uses position:fixed and LTRB to fix the position anywhwere on the screen so that its position doesnot get affected on scrolling. Remains constant.
 5. Sticky : Uses position:sticky which will stick the element to the screen when it reaches its scroll position.
