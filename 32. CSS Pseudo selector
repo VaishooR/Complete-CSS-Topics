@@ -266,6 +266,16 @@ Example 2:
       color:green;
     }
 
+Example 3:
+ :is(#d1,#d2) :is(h2,p){
+      color:red;
+    }
+
+
+Example 4:
+    :is(#d1,#d2) h2:hover{
+      color:chocolate;
+    }
 ------------------------------------------------------------------
 
 
