@@ -225,7 +225,7 @@ Example:
 
 Example:
 <style>
-input[type='checkbox']:checked{
+input[type='checkbox']:checked{      // Similarly, :enabled, :disabled, :required, :read-only, :read-write, :valid, :invalid
     box-shadow:0 0 0 3px red;
 }
 </style>
@@ -239,6 +239,33 @@ input[type='checkbox']:checked{
 <input type='checkbox' id='hin'/>
 <label for='hin'>Hindi</label>
  
+------------------------------------------------------------------
+
+16.  :is()
+
+This is a keyword added to a selector that lets you style a specific part of the selected element(s).
+
+Example 1:
+ /* #d1 h2,
+    #d1 h3,
+    #d1 h4  { color:red;} 
+ */                            This can be written in one line using :is()
+
+    #d1 :is(h2,h3,h4){
+      color:blue;
+    }
+
+
+Example 2:
+ #d1 h2,
+ #d2 h2{
+      color:brown;
+    }                           This can be written in one line using :is()
+
+    :is(#d1,#d2) h2{
+      color:green;
+    }
+
 ------------------------------------------------------------------
 
 
