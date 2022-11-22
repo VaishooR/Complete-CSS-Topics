@@ -1,0 +1,33 @@
+Pseudo elements:
+
+This pseudo-element can be defined as a keyword which is combined to a selector that defines the special state of the selected elements. 
+Unlike the pseudo-classes, 
+pseudo-elements are used to style the specific part of an element, whereas 
+pseudo-classes are used to style the element.
+
+Some pseudo-elements are:
+  ::before
+  ::after
+  ::first-letter
+  ::first-line
+  ::selection
+  ::placeholder
+  
+  
+  
+  ::selection applies a style to the text, when selected. bg-color and text-color are changed on selection.
+  ::placeholder applies styles to texts present in input textbox.
+  ::first-letter selects 1st alphabet in the 1st line of the selected element and applies style to it.
+  ::first-line selects 1st line of the selected element and applies style to it.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
