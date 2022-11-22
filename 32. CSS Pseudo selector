@@ -204,7 +204,6 @@ Example:
   ------------------------------------------------------------------
     
   14. :focus
-  
   On clicking, styles gets applied. i.e when an element gets focussed, style is applied.
   
   Example:
@@ -222,9 +221,27 @@ Example:
   
  ------------------------------------------------------------------
  
+15. :checked
+
+Example:
+<style>
+input[type='checkbox']:checked{
+    box-shadow:0 0 0 3px red;
+}
+</style>
+
+<input type='checkbox' id='eng'/>
+<label for='eng'>English</label>
+
+<input type='checkbox' id='tam'/>
+<label for='tam'>Tamil</label>
+
+<input type='checkbox' id='hin'/>
+<label for='hin'>Hindi</label>
  
- 
- 
+------------------------------------------------------------------
+
+
  
  
  
