@@ -203,7 +203,24 @@ Example:
   
   ------------------------------------------------------------------
     
- 
+  14. :focus
+  
+  On clicking, styles gets applied. i.e when an element gets focussed, style is applied.
+  
+  Example:
+  
+  <style>
+    #txt:focus{
+       border:2px solid blue;
+       outline:none;
+    }
+  </style>
+  
+  <body>
+        Name: <input type='text' id='txt'/>
+  </body>
+  
+ ------------------------------------------------------------------
  
  
  
