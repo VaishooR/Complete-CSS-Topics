@@ -1,0 +1,10 @@
+Transitions:
+
+This CSS transitions provide a way to control animation speed when changing CSS properties.
+The CSS transitions are effects that are added to change the element gradually from one style.
+
+transition	                    The shorthand property for setting the four transition properties into a single property.
+transition-delay	              The specifies a delay in seconds for the transition effect.
+transition-duration	            This specifies how many seconds or milliseconds a transition effect takes to complete.
+transition-property	            This specifies the name of the CSS property the transition effect.
+transition-timing-function	    This specifies the speed curve of the transition effect
