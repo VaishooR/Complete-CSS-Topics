@@ -13,19 +13,42 @@ Some pseudo-elements are:
   ::selection
   ::placeholder
   
-  
+  -----------------------------
   
   ::selection applies a style to the text, when selected. bg-color and text-color are changed on selection.
   ::placeholder applies styles to texts present in input textbox.
   ::first-letter selects 1st alphabet in the 1st line of the selected element and applies style to it.
   ::first-line selects 1st line of the selected element and applies style to it.
   
+  ::after &  ::before
+  The ::after selector inserts something after the content of each selected element(s).
+  Use the ::before selector to insert something before the content.
+  Use the content property to specify the content to insert.
+  
+  Example:
+  <style>
+  p::after { 
+    content: " - Remember this";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+  }
+  p::before{
+    content:'Sentence  - ';
+    text-transform:uppercase;
+    color:blue;
+  }
+  </style>
+  
+  <p>My name is Donald</p>
+  <p>I live in Ducksburg</p>
   
   
+  Output:
+  Sentence  - My name is Donald  - Remember this
+  Sentence  - I live in Ducksburg  - Remember this
   
-  
-  
-  
+  -----------------------------
   
   
   
